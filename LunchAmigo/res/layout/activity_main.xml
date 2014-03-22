@@ -8,36 +8,25 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <RatingBar
-        android:id="@+id/ratingBar1"
+    <Button
+        android:id="@+id/loginButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/activityButton"
+        android:layout_alignRight="@+id/activityButton"
+        android:layout_below="@+id/activityButton"
+        android:layout_marginTop="21dp"
+        android:text="Go to Login Activity" 
+        android:onClick="goToLogin"/>
+
+    <Button
+        android:id="@+id/activityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true" />
-
-    <ProgressBar
-        android:id="@+id/progressBar1"
-        style="?android:attr/progressBarStyleLarge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/ratingBar1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="56dp" />
-
-    <ProgressBar
-        android:id="@+id/progressBar2"
-        style="?android:attr/progressBarStyleLarge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/ratingBar1"
-        android:layout_centerHorizontal="true" />
-
-    <RatingBar
-        android:id="@+id/ratingBar2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/ratingBar1"
-        android:layout_below="@+id/progressBar2"
-        android:layout_marginTop="26dp" />
+        android:layout_marginTop="113dp"
+        android:text="Go to Activtiy Option" 
+        android:onClick="goToOption"/>
 
 </RelativeLayout>
