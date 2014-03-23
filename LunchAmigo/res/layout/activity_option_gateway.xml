@@ -11,24 +11,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="2.5"
-        android:text="Button" 
-        android:background="#ff33b5e5"/>
+        android:text="Add Time/Date" 
+        android:background="#ff33b5e5"
+        android:onClick="goToInputTime"/>
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
        	android:layout_weight="5"
-		android:text="Button" 
+		android:text="Find Lunch Amigo" 
 		android:textColor="#ff33b5e5"
-		android:background="#2C3539"/>
+		android:background="#2C3539"
+		android:onClick="goToFindLunchAmigo"/>
 
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="2.5"
-        android:text="Button" 
-        android:background="#ff33b5e5"/>
+        android:text="Find Friends" 
+        android:background="#ff33b5e5"
+        android:onClick="goToFindFriends"/>
 
 </LinearLayout>

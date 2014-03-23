@@ -31,6 +31,10 @@
             android:label="@string/title_activity_login"
             android:windowSoftInputMode="adjustResize|stateVisible" >
         </activity>
+        <activity
+            android:name="mingle.unimelb.lunchamigo.InputTime"
+            android:label="@string/title_activity_input_time" >
+        </activity>
     </application>
 
 </manifest>
