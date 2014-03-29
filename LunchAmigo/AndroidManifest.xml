@@ -35,6 +35,14 @@
             android:name="mingle.unimelb.lunchamigo.InputTime"
             android:label="@string/title_activity_input_time" >
         </activity>
+        <activity
+            android:name="mingle.unimelb.lunchamigo.LunchInviteMessage"
+            android:label="@string/title_activity_lunch_invite_message"
+            android:parentActivityName="mingle.unimelb.lunchamigo.OptionGateway" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mingle.unimelb.lunchamigo.OptionGateway" />
+        </activity>
     </application>
 
 </manifest>

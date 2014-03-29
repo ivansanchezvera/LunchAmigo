@@ -36,4 +36,9 @@ public class OptionGateway extends Activity {
 		startActivity(intent);
 	}
 	
+	public void goToLunchInviteMessage(View view) {
+		Intent intent = new Intent(this, LunchInviteMessage.class);// Should go to send invite message
+		startActivity(intent);
+	}
+	
 }
