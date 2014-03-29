@@ -6,5 +6,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_option_gateway">OptionGateway</string>
     <string name="title_activity_input_time">InputTime</string>
+    <string name="title_activity_lunch_invite_message">LunchInviteMessage</string>
 
 </resources>
